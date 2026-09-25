@@ -23,6 +23,10 @@
 | <img src="docs/screenshots/04-portfolio.jpg" width="230"> | <img src="docs/screenshots/05-copy-trading.jpg" width="230"> | <img src="docs/screenshots/06-ecpay-checkout.jpg" width="230"> |
 | 持倉比例圓餅圖、<br>未實現損益、成交均價 | 交易員績效與<br>當前持倉公開 | 信用卡實際付款<br>（正式環境） |
 
+### 操作示範影片
+
+▶ **[觀看操作示範影片（Google 雲端硬碟）](https://drive.google.com/file/d/1HZUFtQn4ahwxjBWEAVqS0gwkdywZJpnm/view?usp=sharing)**
+
 ---
 
 ## 專案概要

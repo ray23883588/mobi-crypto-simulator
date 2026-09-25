@@ -23,6 +23,12 @@
 | <img src="docs/screenshots/04-portfolio.jpg" width="230"> | <img src="docs/screenshots/05-copy-trading.jpg" width="230"> | <img src="docs/screenshots/06-ecpay-checkout.jpg" width="230"> |
 | 保有比率の円グラフ・<br>未実現損益・平均取得単価 | トレーダーの成績と<br>現在ポジションの公開 | クレジットカードによる<br>実決済（本番環境） |
 
+### デモ動画
+
+▶ **[操作デモ動画を見る（Google ドライブ）](https://drive.google.com/file/d/1HZUFtQn4ahwxjBWEAVqS0gwkdywZJpnm/view?usp=sharing)**
+
+アプリの画面表示は中国語ですが、操作の流れはそのままご確認いただけます。
+
 ---
 
 ## 概要

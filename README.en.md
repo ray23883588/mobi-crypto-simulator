@@ -23,6 +23,12 @@ payment integration — a full-stack team project spanning mobile client through
 | <img src="docs/screenshots/04-portfolio.jpg" width="230"> | <img src="docs/screenshots/05-copy-trading.jpg" width="230"> | <img src="docs/screenshots/06-ecpay-checkout.jpg" width="230"> |
 | Allocation pie chart, unrealized<br>P&L, average cost basis | Trader performance and<br>open positions | Real credit card payment<br>(production environment) |
 
+### Demo Video
+
+▶ **[Watch the demo video (Google Drive)](https://drive.google.com/file/d/1HZUFtQn4ahwxjBWEAVqS0gwkdywZJpnm/view?usp=sharing)**
+
+The app UI is in Chinese, but the flow is easy to follow.
+
 ---
 
 ## Overview
