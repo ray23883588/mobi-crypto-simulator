@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "MOBI-",
+    "slug": "MOBI-",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/LOGO-app.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#151515"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3940256099942544~1712485313"
+      },
+      "bundleIdentifier": "com.mobi.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/LOGO-app.png",
+        "backgroundColor": "#151515"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3940256099942544~1712485313"
+      },
+      "package": "com.mobi.app"
+    },
+    "web": {
+      "favicon": "./assets/adaptiveIcon.png"
+    }
+  }
+}

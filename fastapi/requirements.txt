@@ -1,0 +1,13 @@
+# Python 3.10+（main.py 使用 PEP 604 的 `int | None` 型別語法）
+# 版本以 2022 年專題開發當時的穩定版為基準
+
+fastapi==0.78.0
+uvicorn[standard]==0.17.6
+pydantic==1.9.1
+firebase-admin==5.2.0
+APScheduler==3.9.1
+requests==2.28.0
+beautifulsoup4==4.11.1
+
+# test.py 的並發壓力測試腳本使用
+grequests==0.6.0

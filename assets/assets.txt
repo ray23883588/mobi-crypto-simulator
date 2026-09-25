@@ -1,0 +1,12 @@
+淺: #8afff4
+中: #45d7cf
+深: #00afaa
+字體灰: rgba(117, 117, 117, 1)
+背景灰: rgba(21, 21, 21, 1)  #151515
+按鈕灰: rgba(40, 40, 40, 1)
+跌價: rgba(255, 92, 92, 1)
+漲價: rgba(107, 255, 148, 1)
+icon: "https://materialdesignicons.com/"
+API: "https://www.coingecko.com/zh-tw/api/documentation?"
+API教學: "https://algotrading101.com/learn/coingecko-api-guide/"
+報價參考APP: "https://github.com/FaztWeb/react-native-coingecko-api"

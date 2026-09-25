@@ -1,0 +1,42 @@
+# ---- 機密檔案（絕對不要提交）----
+**/serviceAccount.json
+**/firebase-mobi.json
+**/google-services.json
+**/GoogleService-Info.plist
+**/cert/
+*.pem
+*.key
+*.p12
+.env
+.env.local
+
+# ---- 專題文件（含組員姓名、學號等個資，不公開）----
+*.pdf
+*.docx
+*.pptx
+
+# ---- Node / Expo ----
+node_modules/
+.expo/
+.expo-shared/
+npm-debug.*
+*.jks
+*.orig.*
+web-build/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ---- 編輯器 / 作業系統 ----
+.idea/
+.vs/
+*.suo
+*.sqlite
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
