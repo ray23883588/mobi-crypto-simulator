@@ -13,10 +13,10 @@
 
 ## スクリーンショット
 
-| ホーム | 銘柄詳細 | 成行注文の約定 |
+| ホーム | 銘柄一覧 | 銘柄詳細・約定 |
 |:---:|:---:|:---:|
-| <img src="docs/screenshots/01-home.png" width="230"> | <img src="docs/screenshots/02-market-detail.png" width="230"> | <img src="docs/screenshots/03-order-filled.jpg" width="230"> |
-| 主要銘柄・月間ランキング・<br>コピートレード推薦 | 価格チャートと板情報（5 段） | 約定通知とリアルタイム反映 |
+| <img src="docs/screenshots/01-home.png" width="230"> | <img src="docs/screenshots/02-market-list.jpg" width="230"> | <img src="docs/screenshots/03-order-filled.jpg" width="230"> |
+| 主要銘柄・月間ランキング・<br>コピートレード推薦 | 現在値・高値/安値と<br>ミニチャートの一覧 | 価格チャート・板情報と<br>成行注文の約定通知 |
 
 | ポートフォリオ | コピートレード | ECPay 決済 |
 |:---:|:---:|:---:|

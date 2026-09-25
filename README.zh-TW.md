@@ -13,10 +13,10 @@
 
 ## 畫面截圖
 
-| 首頁 | 標的詳情 | 市價單成交 |
+| 首頁 | 幣種列表 | 標的詳情與成交 |
 |:---:|:---:|:---:|
-| <img src="docs/screenshots/01-home.png" width="230"> | <img src="docs/screenshots/02-market-detail.png" width="230"> | <img src="docs/screenshots/03-order-filled.jpg" width="230"> |
-| 主要幣種、月風雲榜、<br>投資組合跟單推薦 | 價格走勢圖與五檔訂單簿 | 成交通知與即時反映 |
+| <img src="docs/screenshots/01-home.png" width="230"> | <img src="docs/screenshots/02-market-list.jpg" width="230"> | <img src="docs/screenshots/03-order-filled.jpg" width="230"> |
+| 主要幣種、月風雲榜、<br>投資組合跟單推薦 | 即時價格、最高/最低價<br>與迷你走勢圖 | 價格走勢圖、五檔訂單簿<br>與市價單成交通知 |
 
 | 帳務庫存 | 跟單交易 | 綠界金流 |
 |:---:|:---:|:---:|

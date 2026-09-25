@@ -13,10 +13,10 @@ payment integration — a full-stack team project spanning mobile client through
 
 ## Screenshots
 
-| Home | Market Detail | Order Filled |
+| Home | Market List | Coin Detail & Fill |
 |:---:|:---:|:---:|
-| <img src="docs/screenshots/01-home.png" width="230"> | <img src="docs/screenshots/02-market-detail.png" width="230"> | <img src="docs/screenshots/03-order-filled.jpg" width="230"> |
-| Top coins, monthly leaderboard,<br>copy-trading suggestions | Price chart and 5-level order book | Fill notification, reflected instantly |
+| <img src="docs/screenshots/01-home.png" width="230"> | <img src="docs/screenshots/02-market-list.jpg" width="230"> | <img src="docs/screenshots/03-order-filled.jpg" width="230"> |
+| Top coins, monthly leaderboard,<br>copy-trading suggestions | Live prices, daily high/low,<br>and sparklines | Price chart, order book,<br>and market-order fill notice |
 
 | Portfolio | Copy Trading | ECPay Checkout |
 |:---:|:---:|:---:|
