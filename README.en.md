@@ -70,7 +70,8 @@ flowchart LR
     EC["ECPay"]
 
     RN -->|"Firebase ID token"| API
-    RN -->|"realtime subscription"| FS
+    RN -->|"onSnapshot listeners"| FS
+    RN -->|"market data"| CG
     API --> FS
     SCH --> FS
     SCH --> CG
@@ -80,9 +81,18 @@ flowchart LR
     CR --> FS
 ```
 
-The client **reads** market data and holdings directly via Firestore realtime subscriptions, while every
-**write that moves assets goes through FastAPI**, keeping order processing and balance arithmetic on the
+Every **write that moves assets goes through FastAPI**, keeping order processing and balance arithmetic on the
 server. Each request is authorized by verifying a Firebase ID token first.
+
+Account balance, holdings, open orders, and trade history, on the other hand, are **subscribed to with Firestore
+`onSnapshot` listeners** on the client. Limit-order fills (matched by a scheduler every 30 seconds) and mirrored
+copy-trading orders **change a user's assets asynchronously on the server, without any action from that user** —
+listeners push those changes to the screen immediately, with no polling or manual refresh. It also means the API
+only has to write to Firestore; it never needs to return the updated state in its response.
+
+Market data comes from an external API that can't be subscribed to, so the client polls CoinGecko at per-screen intervals
+(coin detail every 4 s, market list every 10 s, home every 15 s, with timers cleared when the screen unmounts).
+The backend polls the same API every 6 seconds for order matching.
 
 ---
 
