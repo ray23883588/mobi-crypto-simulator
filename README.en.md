@@ -6,7 +6,9 @@ payment integration — a full-stack team project spanning mobile client through
 
 [日本語](README.md) | [繁體中文](README.zh-TW.md) | **English**
 
-> Fu Jen Catholic University, Dept. of Information Management — 38th senior project (Sep 2021 – Nov 2022)
+> Fu Jen Catholic University, Dept. of Information Management — 38th senior project (Sep 2021 – Nov 2022)<br>
+> **Award**: 3rd Place, Information Application Category (Group IP2), InnoServe Awards 2022 (Taiwan's national IT services competition for university students)
+>
 > This repository is archived. The backend server and Firebase project are no longer running.
 
 ---
